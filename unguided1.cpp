@@ -61,4 +61,3 @@ int main() {
 // Mikhael Setia Budi
 // 2311110033
 //copyright@MikhaelS.B
-
