@@ -34,15 +34,8 @@ beberapa tipe data koleksi yang umum digunakan:
 
 ### 1. Tipe Data Primitif
 
-```C++
-#include <iostream>
-using namespace std;
 
-int main() {
-    cout << "ini adalah file code guided praktikan" << endl;
-    return 0;
-}
-```
+
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
 ## Unguided 
