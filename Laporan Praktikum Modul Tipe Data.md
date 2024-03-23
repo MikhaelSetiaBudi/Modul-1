@@ -34,7 +34,7 @@ beberapa tipe data koleksi yang umum digunakan:
 
 ### 1. Tipe Data Primitif
 
-
+https://github.com/MikhaelSetiaBudi/Modul-1/issues/1#issue-2202685169
 
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
