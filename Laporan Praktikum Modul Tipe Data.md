@@ -94,16 +94,63 @@ beberapa tipe data koleksi yang umum digunakan:
 10. cin >> pilihan digunakan untuk meminta input dari pengguna dan menyimpannya dalam variabel pilihan
 11. switch (pilihan) digunakan untuk membuat keputusan berdasarkan dengan nilai variabel pilihan untuk memilih jalur eksekusi yang sesuai. jadi ketika pengguna memasukan angka 1 maka switch akan menentukan case atau blok kode mana yang sesuai dengan angka tersebut, jika sudah ditemuka maka blok kode tersebut yang akan dijalankan.
 12. case 1:, case 2:, case 3: digunakan untuk membuat tindakan mana yang sesaui dengan angka yang dimasukan oleh pengguna. dalam kode diatas terdapat kondisi 1, 2, dan 3. dimana kondisi 1 adalah luas persegi panjang, kondisi 2 adalah luas segitiga, dan kondisi 3 adalah luas persegi. jadi ketika pengguna memasukkan angka 1 maka program akan menjalankan case 1.
-13. cout digunakan untuk menampilkan teks. cin >> P adalah meminta pengguna untuk menginput nilai panjang dan menyimpannya dalam variabel P dan cin >> L adalah meminta pengguna untuk memasukan nilai lebar dan menyimpannya dalam variabel L.  cout << "Luas Persegi Panjang adalah: " << hitungluaspersegipanjang(P, L) << endl; digunakan untuk mencetak hasil perhitungan luas persegi panjang, hitung luas persegi panjang(P, L) adalah pemanggilan fungsi hitungluaspersegipanjang yang telah dideklarasikan sebelumnya dengan parameter P dan L mengembalikan nilai luas persegi panjang berdasarkan panjang dan lebar yang telah dimasukkan oleh pengguna.
-```
+13. cout digunakan untuk menampilkan teks. cin >> P adalah meminta pengguna untuk menginput nilai panjang dan menyimpannya dalam variabel P dan cin >> L adalah meminta pengguna untuk memasukan nilai lebar dan menyimpannya dalam variabel L.  cout << "Luas Persegi Panjang adalah: " << hitungluaspersegipanjang(P, L) << endl; digunakan untuk mencetak hasil perhitungan luas persegi panjang, hitung luaspersegipanjang(P, L) adalah pemanggilan fungsi hitungluaspersegipanjang yang telah dideklarasikan sebelumnya dengan parameter P dan L, dan mengembalikan nilai luas persegi panjang berdasarkan panjang dan lebar yang telah dimasukkan oleh pengguna. break digunakan untuk menjeda setiap programnya, jadi setiap case terdapat break di akhir dengan tujuan hanya blok yang sesuai dengan case saja yang dieksekusi.
+14. cout digunakan untuk menampilkan teks. cin >> a adalah meminta pengguna untuk menginput nilai alas dan menyimpannya dalam variabel a dan cin >> t adalah meminta pengguna untuk memasukan nilai tinggi dan menyimpannya dalam variabel t.  cout << "Luas Segitiga adalah: " << hitungluassegitiga(a, t) << endl; digunakan untuk mencetak hasil perhitungan luas segitiga, hitungluassegitiga(a, t) adalah pemanggilan fungsi hitungluassegitiga yang telah dideklarasikan sebelumnya dengan parameter a dan t, dan mengembalikan nilai luas segitiga berdasarkan alas dan tinggi yang telah dimasukkan oleh pengguna. break digunakan untuk menjeda setiap programnya, jadi setiap case terdapat break di akhir dengan tujuan hanya blok yang sesuai dengan case saja yang dieksekusi.
+15. cout digunakan untuk menampilkan teks. cin >> s adalah meminta pengguna untuk menginput nilai sisi persegi dan menyimpannya dalam variabel s.  cout << "Luas Persegi adalah: " << hitungluaspersegi(s) << endl; digunakan untuk mencetak hasil perhitungan luas persegi, hitungluaspersegi(s) adalah pemanggilan fungsi hitungluaspersegi yang telah dideklarasikan sebelumnya dengan parameter s, dan mengembalikan nilai luas persegi berdasarkan sisi yang telah dimasukkan oleh pengguna. break digunakan untuk menjeda setiap programnya, jadi setiap case terdapat break di akhir dengan tujuan hanya blok yang sesuai dengan case saja yang dieksekusi.
+16. default
+    cout << "Angka yang dimasukkan tidak valid." << endl;
+merupakan bagian default dari switch-case yang menangani jika operator yang dimasukkan oleh pengguna tidak sesuai. ketika operator yang di masukkan tidak sesuai maka akan muncul pesan Angka yang dimasukkan tidak valid.
+17. return 0 mengindikasikan program telah berakhir.
+
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/output%20unguided%201%20tipe%20data.png?raw=true)
 
-#### Full code Screenshot:
-![240309_10h21m35s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/41e9641c-ad4e-4e50-9ca4-a0215e336b04)
+pertama pengguna akan memilih luas bangun datar mana yang akan dicari dengan mengetikkan angka. lalu pengguna harus memasukan P dan L jika mencari luas persegi panjang, a dan t jika mencari luas segitiga, dan s jika mencari luas persegi. setelah itu akan muncul hasil operasi dari luas setiap bangun ruang.
 
+#### Kesimpulan
+tipe data primitif adalah tipe data yang telah ditentukan oleh sistem. tipe data primitif ini telah disediakan oleh bahasa pemrograman lainnya. tipe data primitif ini meliputi integer (menyimpan bilangan bulat), float (menyimpan bilangan desimal), char (menyimpan huruf), dan boolean (menyimpan dua nilai yaitu true dan false).
+
+### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
+
+fungsi class adalah untuk mendefinisikan struktur dan prilaku suatu objek. berisikan data dan metode yang dimiliki oleh setiap onjek berdasarkan class tersebut. class dapat mendefinisikan karakteristik data yang dimiliki suatu objek. class juga dapat mendefinisikan fungsi yang digunakan untuk melakukan tindakan tertentu. class juga dapat membuat objek.
+fungsi struct adalah mengelompokkan beberapa jenis data yang berbeda menjadi satu. struct juga dapat menyederhanakan kode dengan mengelompokkan data. struct sering digunakan dalam fungsi dan algoritma yang membutuhkan data terstruktur.
+
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/code%20unguided%202%20tipe%20data.png?raw=true)
+
+1. #include <iostream> merupakan file header yang digunakan untuk memungkinkan program dapat menggunakan fungsi-fungsi input- output dengan standar C++
+2. using namespace std; digunakan dengan tujuan memberi tahu program untuk menggunakan namespace 'std', dimana namespace standar untuk fungsi dan objek standar dalam C++
+3. class lansia digunakan mendeklarasikan informasi tentang lansia. dimana di dalam class lansia terdapat beberapa data yaitu nama dengan tipe data string untuk pengguna dapat memasukan nama, umur dengan tipe data integer, tb (tinggi badan) dengan tipe data float agar pengguna dapat memasukan bilangan desimal juga, dan bb (berat badan) dengan menggunakan tipe data float agar pengguna dapat memasukan bilangan desimal. public digunakan agar dapat diakses dari luar class.
+4. void display() merupakan fungsi yang digunakan untuk menampilkan informasi lansia. cout<<"Nama: "<<nama<<endl; dan yang lainnya digunakan untuk menampilkan nama, umur, tinggi badan, berat badan pengguna yang telah dimasukan oleh pengguna dengan memanggil data nama, umur, tb, bb. lalu endl adalah newline atau bari baru.
+5. struct BBM digunakan untuk mendeklarasikan informasi mengenai bahan bakar minyak. dimana di dalam class BBM terdapat beberapa data yaitu nama dengan tipe data string yang digunakan untuk menyimpan rangkaian karakter, liter dengan menggunakan tipe data float agar dapat menyimpan bilangan desimal, dan harga dengan tipe data float agar dapat menyimpan bilangan desimal.
+6. int main() adalah fungsi utama dari program diatas. int main() merupakan fondasi pada setiap program C++ karena dapat mengatur bagaimana program berjalan dan dapat mengkontrol aliran eksekusi program. fungsi main() adalah titik awal dari berjalannya program, jadi ketika semua program ditempatkan dalam fungsi main maka ketika program dijalankan, semua fungsi dalam main akan dieksekusi. selain itu dengan menggunakan fungsi main maka dapat memanggil fungsi lainnya.
+7. membuat variabel lansia dan BBM dari class lansia dan struct BBM. dimana dalam variabel lansia terdapat data tentang nama, umur, tb, bb yang telah dideklarasikan, dalam kode terdapat lansia1, lansia2, dan lansia3 dengan data yang sama yaitu nama, umur, tb, bb. lalu membuat objek bbm1 dan bbm2 dalam struct BBM yang berisikan data Nama, liter, dan harga yang telah dideklarasikan.
+8. menggunakan metode display() unruk menampilkan data lasia1, lansia2, dan lansia3. dengan memasukkan objek sebelum display, lansia.display().
+9. cout<<"Nama: "<<bbm1.Nama<<endl;
+    cout<<"Liter: "<<bbm1.liter<<" L"<<endl;
+    cout<<"Harga: "<<bbm1.harga<<" Rupiah"<<endl;
+
+    cout<<"Nama: "<<bbm2.Nama<<endl;
+    cout<<"Liter: "<<bbm2.liter<<" L"<<endl;
+    cout<<"Harga: "<<bbm2.harga<<" Rupiah"<<endl;
+digunakan untuk menampilakan data dari setiap objek yang telah dibuat dalam struct dengan memanggil data yang telah dibuat. menambahkan teks L dan Rupiah agar ketika ditampilkan maka setelah angka akan muncul satuannya.
+10. return 0 mengindikasikan program telah berakhir.
+
+#### output
+
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/output%20unguided%202%20tipe%20data.png?raw=true)
+
+### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.
+
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/code%20unguided%203%20tipe%20data.png?raw=true)
+
+1. #include <iostream> merupakan file header yang digunakan untuk memungkinkan program dapat menggunakan fungsi-fungsi input- output dengan standar C++
+2. #include <vector> digunakan untuk dapat menggunakan struktur data vector
+3. #include <alogrithm> digunakan untuk dapat menggunakan fungsi transform
+
+#### output
+
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/output%20unguided%203%20tipe%20data.png?raw=true)
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
