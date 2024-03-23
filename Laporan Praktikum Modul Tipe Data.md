@@ -9,7 +9,7 @@ Tipe data merupakan pengklasifikasian data berdasarkan jenis data. Adapun tipe d
 3. Tipe data Koleksi
 
 ### Tipe Data Primitif
-Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem. contoh tipe data primitif:
+Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem.  contoh tipe data primitif:
 
 a. Int : digunakan untuk menyimpan bilangan bulat seperti 1, 2, 3, dan seterusnya
 
@@ -142,15 +142,15 @@ digunakan untuk menampilakan data dari setiap objek yang telah dibuat dalam stru
 
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.
 
-![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/code%20unguided%203%20tipe%20data.png?raw=true)
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Modul%201%20Alstrukdat/code%20unguided%203%20tipe%20data.png?raw=true)
 
 1. #include <iostream> merupakan file header yang digunakan untuk memungkinkan program dapat menggunakan fungsi-fungsi input- output dengan standar C++
-2. #include <vector> digunakan untuk dapat menggunakan struktur data vector
-3. #include <alogrithm> digunakan untuk dapat menggunakan fungsi transform
+2. #include <map> digunakan untuk menyertakan file header map yang memberikan akses ke class map.
+3. using namespace std; digunakan dengan tujuan memberi tahu program untuk menggunakan namespace 'std', dimana namespace standar untuk fungsi dan objek standar dalam C++
 
 #### output
 
-![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/output%20unguided%203%20tipe%20data.png?raw=true)
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Output%20Modul%201%20Alstrukdat/output%20unguided%203%20tipe%20data.png?raw=true)
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
