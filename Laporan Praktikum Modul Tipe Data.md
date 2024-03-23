@@ -116,7 +116,7 @@ tipe data primitif adalah tipe data yang telah ditentukan oleh sistem. tipe data
 fungsi class adalah untuk mendefinisikan struktur dan prilaku suatu objek. berisikan data dan metode yang dimiliki oleh setiap onjek berdasarkan class tersebut. class dapat mendefinisikan karakteristik data yang dimiliki suatu objek. class juga dapat mendefinisikan fungsi yang digunakan untuk melakukan tindakan tertentu. class juga dapat membuat objek.
 fungsi struct adalah mengelompokkan beberapa jenis data yang berbeda menjadi satu. struct juga dapat menyederhanakan kode dengan mengelompokkan data. struct sering digunakan dalam fungsi dan algoritma yang membutuhkan data terstruktur.
 
-![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/code%20unguided%202%20tipe%20data.png?raw=true)
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Modul%201%20Alstrukdat/code%20unguided%202%20tipe%20data.png?raw=true)
 
 1. #include <iostream> merupakan file header yang digunakan untuk memungkinkan program dapat menggunakan fungsi-fungsi input- output dengan standar C++
 2. using namespace std; digunakan dengan tujuan memberi tahu program untuk menggunakan namespace 'std', dimana namespace standar untuk fungsi dan objek standar dalam C++
@@ -138,7 +138,7 @@ digunakan untuk menampilakan data dari setiap objek yang telah dibuat dalam stru
 
 #### output
 
-![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/output%20unguided%202%20tipe%20data.png?raw=true)
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Output%20Modul%201%20Alstrukdat/output%20unguided%202%20tipe%20data.png?raw=true)
 
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.
 
