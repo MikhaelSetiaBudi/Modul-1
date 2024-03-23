@@ -34,7 +34,7 @@ beberapa tipe data koleksi yang umum digunakan:
 
 ### 1. Tipe Data Primitif
 
-![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/code%20guided%201%20tipe%20data.png?raw=true)
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Modul%201%20Alstrukdat/code%20guided%201%20tipe%20data.png?raw=true)
 
 1. #include <iostream> merupakan file header yang digunakan untuk memungkinkan program dapat menggunakan fungsi-fungsi input- output dengan standar C++
 2. using namespace std; digunakan dengan tujuan memberi tahu program untuk menggunakan namespace 'std', dimana namespace standar untuk fungsi dan objek standar dalam C++
@@ -55,7 +55,7 @@ beberapa tipe data koleksi yang umum digunakan:
 
 ### 2. Tipe Data Abstrak
 
-![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/code%20guided%202%20tipe%20data.png?raw=true)
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Modul%201%20Alstrukdat/code%20guided%202%20tipe%20data.png?raw=true)
 
 1. #include <stdio.h> adalah direktif yang menyertakan file header studio.h yang digunakan untuk menggunakan fungsi input-output standar dalam C++.
 2. Struct Mahasiswa adalah mendefinisikan sebuat struct bernama Mahasiswa yang memiliki 3 anggota yaitu name dengan tipe data char atau charakter yaitu berupa huruf, address dengan menggunakan tipe data char juga, dan age yang menggunakan tipe data integer berupa bilangan bulat.
@@ -66,7 +66,7 @@ beberapa tipe data koleksi yang umum digunakan:
 
 ### 3. Tipe Data Koleksi
 
-![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/code%20guided%203%20tipe%20data.png?raw=true)
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Modul%201%20Alstrukdat/code%20guided%203%20tipe%20data.png?raw=true)
 
 1. #include <iostream> merupakan file header yang digunakan untuk memungkinkan program dapat menggunakan fungsi-fungsi input- output dengan standar C++
 2. using namespace std; digunakan dengan tujuan memberi tahu program untuk menggunakan namespace 'std', dimana namespace standar untuk fungsi dan objek standar dalam C++
@@ -80,7 +80,7 @@ beberapa tipe data koleksi yang umum digunakan:
 
 ### 1. Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!
 
-![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/code%20unguided%201%20tipe%20data.png?raw=true)
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Modul%201%20Alstrukdat/code%20unguided%201%20tipe%20data.png?raw=true)
 
 1. #include <iostream> merupakan file header yang digunakan untuk memungkinkan program dapat menggunakan fungsi-fungsi input- output dengan standar C++
 2. using namespace std; digunakan dengan tujuan memberi tahu program untuk menggunakan namespace 'std', dimana namespace standar untuk fungsi dan objek standar dalam C++
@@ -104,7 +104,7 @@ merupakan bagian default dari switch-case yang menangani jika operator yang dima
 
 #### Output:
 
-![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/output%20unguided%201%20tipe%20data.png?raw=true)
+![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Output%20Modul%201%20Alstrukdat/output%20unguided%201%20tipe%20data.png?raw=true)
 
 pertama pengguna akan memilih luas bangun datar mana yang akan dicari dengan mengetikkan angka. lalu pengguna harus memasukan P dan L jika mencari luas persegi panjang, a dan t jika mencari luas segitiga, dan s jika mencari luas persegi. setelah itu akan muncul hasil operasi dari luas setiap bangun ruang.
 
