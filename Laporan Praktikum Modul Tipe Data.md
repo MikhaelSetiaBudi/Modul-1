@@ -9,7 +9,7 @@ Tipe data merupakan pengklasifikasian data berdasarkan jenis data. Adapun tipe d
 3. Tipe data Koleksi
 
 ### Tipe Data Primitif
-Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem.  contoh tipe data primitif:
+Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem. Tipe data primitive adalah tipe data yang hanya mampu menyimpan satu nilai pada setiap satu variabel. tipe data ini ini merupakan tipe data dasar yang sering digunakan program [1]. contoh tipe data primitif:
 
 a. Int : digunakan untuk menyimpan bilangan bulat seperti 1, 2, 3, dan seterusnya
 
@@ -172,4 +172,4 @@ output diatas adalah memunculkan banyaknya karakter pada setiap huruf dalam kali
 bahasa pemrograman C++ menggunakan tiga tipe data yaitu tipe data primitif yang sudah ditentukan oleh sistem dimana terdapat tipe data integer, charakter, float, dan boolean, Tipe data abstrak merupakan tipe data yang dibentuk oleh programer sendiri dimana fitur class dan struct terdapat didalamnya, dan Tipe data koleksi merupakan tipe data yang digunakan untuk mengelompokkan serta menyimpan beberapa nilai atau objek secara bersamaan dimana didalamnya terdapat array, vector, dan map.
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1]	Y. P. Wijaya, “Jenis-Jenis Tipe Data,” Angew. Chemie Int. Ed. 6(11), 951–952., pp. 1–20, 2016.
