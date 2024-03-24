@@ -145,15 +145,31 @@ digunakan untuk menampilakan data dari setiap objek yang telah dibuat dalam stru
 ![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Modul%201%20Alstrukdat/code%20unguided%203%20tipe%20data.png?raw=true)
 
 1. #include <iostream> merupakan file header yang digunakan untuk memungkinkan program dapat menggunakan fungsi-fungsi input- output dengan standar C++
-2. #include <map> digunakan untuk menyertakan file header map yang memberikan akses ke class map.
-3. using namespace std; digunakan dengan tujuan memberi tahu program untuk menggunakan namespace 'std', dimana namespace standar untuk fungsi dan objek standar dalam C++
+2. #include <map> digunakan untk menggunakan struktur data map yang akan digunakan untuk menyimpan frekuensi kemunculkan setiap huruf
+3. using namespace std; digunakan dengan tujuan memberi tahu program untuk menggunakan namespace 'std', dimana namespace standar untuk fungsi dan objek standar dalam C++.
+4. int main() adalah fungsi utama dari program diatas. int main() merupakan fondasi pada setiap program C++ karena dapat mengatur bagaimana program berjalan dan dapat mengkontrol aliran eksekusi program. fungsi main() adalah titik awal dari berjalannya program, jadi ketika semua program ditempatkan dalam fungsi main maka ketika program dijalankan, semua fungsi dalam main akan dieksekusi. selain itu dengan menggunakan fungsi main maka dapat memanggil fungsi lainnya.
+5. string kata digunakan untuk mendeklarasikan variabel kata dengan tipe data string untuk menyimpan masukkan kalimat dari pengguna
+6. cout <<"Silahkan Masukkan kalimat:" digunakan untuk meminta pengguna memasukan kalimat
+7. getline(cin, kata) digunakan untuk membaca seluruh baris kalimat yang telah diinputkan oleh pengguna
+8. map<char,int>frekuensi; digunakan untuk mendeklarasikan variabel frekuensi dimana merupakan variabek dari tipe data map<char, int> dimana char atau charakter merupakan tipe data yang digunakan untuk huruf dan int merupakan tipe data yang digunakan untuk frekuensi.
+9. for (char huruf : kata) digunakan untuk mengulangi setiap karakter dalam string kata dan akan disimpan dalam variabel huruf. ini merupakan variabel yang akan diperbaharui setiap kali perulangan berjalan.
+10. if (isalpha(huruf) digunakan untuk membuat kondisi apakah karakter dalam variabel huruf adalah huruf alfabet. jika benar maka blok kode dalam kurung kurawal akan dijalankan.
+11. huruf = tolower(huruf) digunakan untuk mengubah huruf dalam variabel huruf menjadi huruf kecil, ini dilakukan agar perhitungan frekuensi kemunciulan tidak membedakan huruf besar dan kecil.
+12. frekuensi[huruf]++; digunakan untuk meningkatkan frekuensi kemunculan dalam map frekuensi dengan menambahkan 1 ke nilai yang sedang disimpan dalam map untuk karakter tersebut.
+13. cout << "Frekuensi kemunculan setiap huruf dalam kalimat: "<< endl; digunakan untuk menampilkan pesan awal dengan tujuan memberi tahu pengguna bahwa akan menampilkan frekuensi kemunculan setiap huruf dalam kalimat.
+14.  for (auto& pasangan : frekuensi). for digunakan untuk mengakses setiap pasangan kunci dalam map frekuensi. auto digunakan untuk mengizinkan C++ untuk otomatis menentukan tipe data yang sesuai dengan tipe data dalam map dan pasangan untuk mewakili setiap elemen dalam map frekuensi. frekuensi ini berisikan frekuensi kemunculan setiap huruf dalam kalimat.
+15. cout << "'" << pasangan.first << "': " << pasangan.second << endl; digunakan untuk menampilkan pasangan kunci dan nilai. pasangan.first merupakan kunci huruf pasangan tersebut, sedangkan pasangan.second adalah nilai frekuensi kemunculan dalam pasangan tersebut.
+16. return 0 mengindikasikan program telah berakhir.
+
+perbedaan array dan map adalah array hanya dapat menyimpan tipe data integer atau dalam bentuk angka, sedangkan map dapat menyimpan lebih banyak tipe data, tidak hanya integer saja.
 
 #### output
 
 ![alt text](https://github.com/MikhaelSetiaBudi/Modul-1/blob/main/Output%20Modul%201%20Alstrukdat/output%20unguided%203%20tipe%20data.png?raw=true)
 
+output diatas adalah memunculkan banyaknya karakter pada setiap huruf dalam kalimat.
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+bahasa pemrograman C++ menggunakan tiga tipe data yaitu tipe data primitif yang sudah ditentukan oleh sistem dimana terdapat tipe data integer, charakter, float, dan boolean, Tipe data abstrak merupakan tipe data yang dibentuk oleh programer sendiri dimana fitur class dan struct terdapat didalamnya, dan Tipe data koleksi merupakan tipe data yang digunakan untuk mengelompokkan serta menyimpan beberapa nilai atau objek secara bersamaan dimana didalamnya terdapat array, vector, dan map.
 
 ## Referensi
 [1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
