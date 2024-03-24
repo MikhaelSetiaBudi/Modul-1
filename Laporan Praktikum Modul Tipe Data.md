@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 
-Tipe data merupakan pengklasifikasian data berdasarkan jenis data. Adapun tipe data yang akan dipelajari:
+Tipe data merupakan pengklasifikasian data berdasarkan jenis data. Tipe data merupakan sebuah jenis nilai atau berupa nilai apa yang akan ditampung oleh sebuah variabel. Tipe data ini wajib ada ketika akan membuat sebuah variabel agar variabel tersebut memiliki nilai yang spesifik dan jelas ketika digunakan nantinya [1]. Adapun tipe data yang akan dipelajari:
 1. Tipe data Primitif
 2. Tipe data Abstrak
 3. Tipe data Koleksi
@@ -172,4 +172,4 @@ output diatas adalah memunculkan banyaknya karakter pada setiap huruf dalam kali
 bahasa pemrograman C++ menggunakan tiga tipe data yaitu tipe data primitif yang sudah ditentukan oleh sistem dimana terdapat tipe data integer, charakter, float, dan boolean, Tipe data abstrak merupakan tipe data yang dibentuk oleh programer sendiri dimana fitur class dan struct terdapat didalamnya, dan Tipe data koleksi merupakan tipe data yang digunakan untuk mengelompokkan serta menyimpan beberapa nilai atau objek secara bersamaan dimana didalamnya terdapat array, vector, dan map.
 
 ## Referensi
-[1]	Y. P. Wijaya, “Jenis-Jenis Tipe Data,” Angew. Chemie Int. Ed. 6(11), 951–952., pp. 1–20, 2016.
+[1]	R. S. Tiara Dewi, Muhammad Amir Masruhim, H. Haker, and R. Piercey, “Belajar Dasar Pemrograman dengan C++,” Lab. Penelit. dan Pengemb. FARMAKA Trop. Fak. Farm. Univ. Mualawarman, Samarinda, Kalimantan Timur, vol. 27, no. 3, pp. 259–280, 2019.
