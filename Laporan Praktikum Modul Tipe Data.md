@@ -11,11 +11,11 @@ Tipe data merupakan pengklasifikasian data berdasarkan jenis data. Tipe data mer
 ### Tipe Data Primitif
 Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem. Tipe data primitive adalah tipe data yang hanya mampu menyimpan satu nilai pada setiap satu variabel. tipe data ini ini merupakan tipe data dasar yang sering digunakan program [1]. contoh tipe data primitif:
 
-a. Int : digunakan untuk menyimpan bilangan bulat seperti 1, 2, 3, dan seterusnya
+a. Int : digunakan untuk menyimpan bilangan bulat seperti 1, 2, 3, dan seterusnya. Dalam menggunakan sejumlah variabel tersebut harus ditentukan terlebih dahulu tipe data apa yang semestinya digunakan, namun untuk perhitungan yang memuat angka, tipe data yang digunakan ialah Integer [2].
 
 b. Float : digunakan untuk menyimpan bilangan desimal seperti 1.5, 2.5, 3.5, 4.5 dan sebagainya
 
-c. Char : digunakan untuk menyimpan data dalam bentuk huruf. Biasanya digunakan simbol seperti A, B, C, dan seterusnya.
+c. Char : digunakan untuk menyimpan data dalam bentuk huruf. Biasanya digunakan simbol seperti A, B, C, dan seterusnya. Tipe data Char adalah tipe data yang hanya bisa diisi dengan 1 karakter saja. Karakter ini harus ditulis diantara tanda kutip. Karena hanya bisa diisi dengan 1 karakter saja, tipe data char hanya membutuhkan 1 byte memory (1 byte = 8 bit) [3]
 
 d. Boolean : digunakan untuk menyimpan nilai boolean yang hanya memiliki dua nilai yaitu true dan false
 
@@ -173,3 +173,5 @@ bahasa pemrograman C++ menggunakan tiga tipe data yaitu tipe data primitif yang 
 
 ## Referensi
 [1]	R. S. Tiara Dewi, Muhammad Amir Masruhim, H. Haker, and R. Piercey, “Belajar Dasar Pemrograman dengan C++,” Lab. Penelit. dan Pengemb. FARMAKA Trop. Fak. Farm. Univ. Mualawarman, Samarinda, Kalimantan Timur, vol. 27, no. 3, pp. 259–280, 2019.
+[2]	M. B. B. and E. Plutzer, “Analisis Studi Literatur Penyelesaian Operator Aritmatika Serta Bilangan Bulat Dengan Code Sederhana Pada Bahasa Pemrograman C++,” vol. 2, no. 1, p. 6, 2021.
+[3]	R. B. Wimawan, “Tipe Data Sederhana,” p. 6, 2019.
