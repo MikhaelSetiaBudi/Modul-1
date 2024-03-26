@@ -173,5 +173,7 @@ bahasa pemrograman C++ menggunakan tiga tipe data yaitu tipe data primitif yang 
 
 ## Referensi
 [1]	R. S. Tiara Dewi, Muhammad Amir Masruhim, H. Haker, and R. Piercey, “Belajar Dasar Pemrograman dengan C++,” Lab. Penelit. dan Pengemb. FARMAKA Trop. Fak. Farm. Univ. Mualawarman, Samarinda, Kalimantan Timur, vol. 27, no. 3, pp. 259–280, 2019.
+
 [2]	M. B. B. and E. Plutzer, “Analisis Studi Literatur Penyelesaian Operator Aritmatika Serta Bilangan Bulat Dengan Code Sederhana Pada Bahasa Pemrograman C++,” vol. 2, no. 1, p. 6, 2021.
+
 [3]	R. B. Wimawan, “Tipe Data Sederhana,” p. 6, 2019.
